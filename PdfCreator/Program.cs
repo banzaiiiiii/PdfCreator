@@ -30,7 +30,7 @@ namespace PdfCreator
 
             PdfGraphicsState state = page.Canvas.Save();
             //draw rectangles
-            PdfPen pen = new PdfPen(Color.Black, 0.5f);
+            PdfPen pen = new PdfPen(Color.Black, 0.8f);
 
             page.Canvas.DrawRectangle(pen, new Rectangle(new Point(18, 450), new Size(269, 60)));
             page.Canvas.DrawRectangle(pen, new Rectangle(new Point(300, 450), new Size(269, 60)));
@@ -49,7 +49,7 @@ namespace PdfCreator
             PdfTextBoxField textbox = new PdfTextBoxField(page, "OrtDatum");
             textbox.Bounds = new RectangleF(22f, 480f, 100, 22);
             textbox.BorderWidth = 1f;
-            textbox.BorderStyle = PdfBorderStyle.Solid;
+            textbox.BorderStyle = PdfBorderStyle.Inset;
             pdf.Form.Fields.Add(textbox);
 
             string text2 = "Unterschrift des Besichtigers";
