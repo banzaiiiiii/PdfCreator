@@ -49,7 +49,7 @@ namespace PdfCreator
             PdfTextBoxField textbox = new PdfTextBoxField(page, "OrtDatum");
             textbox.Bounds = new RectangleF(22f, 480f, 180, 22);
             textbox.Font = trueTypeFont;
-            //textbox.Font(trueTypeFont, 8.7f);
+            textbox.BorderStyle 
             textbox.BorderWidth = 1f;
             pdf.Form.Fields.Add(textbox);
 
