@@ -15,52 +15,37 @@ namespace PdfCreator
     {
         static void Main(string[] args)
         {
-            PdfDocument pdf = new PdfDocument();
-            pdf.LoadFromFile(@"C:/Users/robin/desktop/Swaebisch_Hall_AussenOhneFooter.pdf");
+            Creator creator = new Creator();
 
 
-
-            PdfPageBase page = pdf.Pages[1];
-            // Adding Source Sans pro test
-            PdfTrueTypeFont trueTypeFont = new PdfTrueTypeFont(new Font("SourceSansPro", 8.7f, FontStyle.Regular));
-
-            // getting the used fonts
+            //creator.loadPdf(@"C:\Users\pc\source\repos\Hyp.Protokoll\Hyp.Api.Protokoll\Protokolle\Schwaebisch_Hall_AussenInnen.pdf");
 
 
-
-            PdfGraphicsState state = page.Canvas.Save();
-            //draw rectangles
-            PdfPen pen = new PdfPen(Color.Black, 0.8f);
-
-            page.Canvas.DrawRectangle(pen, new Rectangle(new Point(18, 450), new Size(269, 60)));
-            page.Canvas.DrawRectangle(pen, new Rectangle(new Point(300, 450), new Size(269, 60)));
-
-            //restor graphics
-            page.Canvas.Restore(state);
+            //layout settings
+            creator.setMarginForA4Document();
+            creator.setFontToSourceSansPro();
+            creator.setPen(0.8f);
+            creator.setBrush();
 
 
-            PdfBrush brush = PdfBrushes.Black;
-            float x = 22;
-            float y = 458;
+            //page settings
+            creator.addNewPage();
+            //creator.setPageToEdit(1);
 
 
-            string text = "Ort, Datum";
-            page.Canvas.DrawString(text, trueTypeFont, brush, x, y);
-            PdfTextBoxField textbox = new PdfTextBoxField(page, "OrtDatum");
-            textbox.Bounds = new RectangleF(22f, 480f, 180, 22);
-            textbox.Font = trueTypeFont;
-            textbox.BorderStyle 
-            textbox.BorderWidth = 1f;
-            pdf.Form.Fields.Add(textbox);
+            // drawing stuff
+            creator.drawRectangle(18, 450, 269, 60);
+            //creator.drawString("Die Bausparkasse Schwäbisch Hall ist kacke",20, 100 );
 
-            string text2 = "Unterschrift des Besichtigers";
-            page.Canvas.DrawString(text2, trueTypeFont, brush, 304, y);
+            // felder Operationen
 
-            pdf.SaveToFile(@"C:/Users/robin/desktop/test123.pdf");
-            System.Diagnostics.Process.Start(@"C:/Users/robin/desktop/test123.pdf");
+            //creator.getFieldsFromPdf();
 
+
+            creator.saveAndOpenPdf(@"C:/users/pc/desktop/SpirePdfCreation/testPdf.pdf");
 
 
         }
+
     }
 }
