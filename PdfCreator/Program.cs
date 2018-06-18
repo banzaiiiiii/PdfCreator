@@ -341,14 +341,211 @@ namespace PdfCreator
             creator.createCheckbox("LageZentrum", 476.6f, 422);
 
             creator.setPageToEdit(2);
+            //4.1
+           
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 152);
+            creator.createCheckbox("LageGrossstadtKlein", 19.5f, 164);
+            creator.createCheckbox("LageMittelstadtGross", 19.5f, 176);
+            
+            creator.createCheckbox("LageZentrum", 111, 152);
+            creator.createCheckbox("LageZentrum", 111, 164);
+            creator.createCheckbox("LageZentrum", 111, 176);
+            creator.createCheckbox("LageZentrum", 111, 187);
+            //4.2
+            creator.createCheckbox("LageZentrum", 202.5f, 152);
+            creator.createCheckbox("LageZentrum", 202.5f, 164);
+            creator.createCheckbox("LageZentrum", 202.5f, 176);
+            creator.createCheckbox("LageZentrum", 202.5f, 187);
+            //
+            creator.createCheckbox("LageGrossstadtGross", 294, 152);
+            creator.createCheckbox("LageGrossstadtKlein", 294, 164);
+            creator.createCheckbox("LageMittelstadtGross", 294, 176);
+            creator.createCheckbox("LageMittelstadtKlein", 294, 187);
+            //
+            creator.createCheckbox("Lage", 385.5f, 152);
+            creator.createCheckbox("LageGrossstadtKlein", 385.5f, 164);
+            creator.createCheckbox("LageMittelstadtGross", 385.5f, 176);
+            creator.createCheckbox("LageMittelstadtKlein", 385.5f, 187);
+            creator.createCheckbox("Lage", 476.6f, 152);
+            //4.3
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 211);
+            creator.createCheckbox("LageGrossstadtKlein", 19.5f, 223);
+            creator.createCheckbox("LageMittelstadtGross", 19.5f, 235);
+            creator.createCheckbox("LageGrossstadtKlein", 19.5f, 246);
+            creator.createCheckbox("LageMittelstadtGross", 19.5f, 258);
 
+            creator.createCheckbox("LageZentrum", 111, 211);
+            creator.createCheckbox("LageZentrum", 111, 223);
+            creator.createCheckbox("LageZentrum", 111, 235);
+            creator.createCheckbox("LageZentrum", 111, 246);
+            creator.createCheckbox("LageZentrum", 111, 258);
+            creator.createCheckbox("LageZentrum", 111, 270);
+            creator.createCheckbox("LageZentrum", 111, 281);
+            creator.createCheckbox("LageZentrum", 111, 293);
+            creator.createCheckbox("LageZentrum", 111, 305);
+
+            creator.createCheckbox("LageZentrum", 202.5f, 211);
+            creator.createCheckbox("LageZentrum", 202.5f, 223);
+            creator.createCheckbox("LageZentrum", 202.5f, 235);
+            creator.createCheckbox("LageZentrum", 202.5f, 246);
+            creator.createCheckbox("LageZentrum", 202.5f, 258);
+            //4.4
+            creator.createCheckbox("LageGrossstadtGross", 294, 211);
+            creator.createCheckbox("LageGrossstadtKlein", 294, 223);
+            creator.createCheckbox("LageMittelstadtGross", 294, 235);
+            creator.createCheckbox("LageMittelstadtKlein", 294, 246);
+            //4.5
+            creator.createCheckbox("Lage", 385.5f, 223);
+            creator.createCheckbox("LageGrossstadtKlein", 385.5f, 235);
+            creator.createCheckbox("LageMittelstadtGross", 385.5f, 246);
+            creator.createCheckbox("LageMittelstadtKlein", 385.5f, 258);
+            creator.createCheckbox("LageMittelstadtKlein", 385.5f, 270);
+            //4.6
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 328);
+            creator.createCheckbox("LageGrossstadtKlein", 19.5f, 340);
+            creator.createCheckbox("LageMittelstadtGross", 19.5f, 352);
+            creator.createCheckbox("LageGrossstadtKlein", 19.5f, 364);
+            creator.createCheckbox("LageMittelstadtGross", 19.5f, 375);
+            //4.7
+            creator.createCheckbox("LageZentrum", 111, 328);
+            creator.createCheckbox("LageZentrum", 111, 340);
+            creator.createCheckbox("LageZentrum", 111, 352);
+            creator.createCheckbox("LageZentrum", 111, 364);
+            creator.createCheckbox("LageZentrum", 111, 375);
+            //4.8
+            creator.createCheckbox("LageZentrum", 202.5f, 328);
+            creator.createCheckbox("LageZentrum", 202.5f, 340);
+            creator.createCheckbox("LageZentrum", 202.5f, 352);
+            creator.createCheckbox("LageZentrum", 202.5f, 364);
+            creator.createCheckbox("LageZentrum", 202.5f, 375);
+            creator.createCheckbox("LageZentrum", 202.5f, 386);
+
+            creator.createCheckbox("LageZentrum", 294, 328);
+            creator.createCheckbox("LageZentrum", 294, 340);
+            creator.createCheckbox("LageZentrum", 294, 352);
+            creator.createCheckbox("LageZentrum", 294, 364);
+            creator.createCheckbox("LageZentrum", 294, 375);
+            creator.createCheckbox("LageZentrum", 294, 387);
+            //4.9
+            creator.createCheckbox("LageZentrum", 416, 328);
+            creator.createCheckbox("LageZentrum", 416, 340);
+            creator.createCheckbox("LageZentrum", 416, 352);
+            creator.createCheckbox("LageZentrum", 416, 364);
+            creator.createCheckbox("LageZentrum", 416, 375);
+            creator.createCheckbox("LageZentrum", 416, 387);
+            //Ausstattung gesamt
+            creator.createCheckbox("LageZentrum", 110.5f, 399);
+            creator.createCheckbox("LageZentrum", 202.3f, 399);
+            creator.createCheckbox("LageZentrum", 293.7f, 399);
+            creator.createCheckbox("LageZentrum", 385.5f, 399);
+            creator.createCheckbox("LageZentrum", 476.6f, 399);
+            //OBjekt ist fertiggestellt 
+            creator.createCheckbox("LageZentrum", 193, 423);
+            creator.createCheckbox("LageZentrum", 220, 423);
+            //5.5
+            creator.createCheckbox("LageZentrum", 111, 483);
+            creator.createCheckbox("LageZentrum", 111, 506);
+            creator.createCheckbox("LageZentrum", 111, 529);
+            creator.createCheckbox("LageZentrum", 111, 553);
+            creator.createCheckbox("LageZentrum", 111, 576);
+            creator.createCheckbox("LageZentrum", 111, 600);
+            creator.createCheckbox("LageZentrum", 111, 622);
+            creator.createCheckbox("LageZentrum", 111, 646);
+
+            creator.createCheckbox("LageZentrum", 201f, 483);
+            creator.createCheckbox("LageZentrum", 201f, 506);
+            creator.createCheckbox("LageZentrum", 201f, 529);
+            creator.createCheckbox("LageZentrum", 201f, 553);
+            creator.createCheckbox("LageZentrum", 201f, 576);
+            creator.createCheckbox("LageZentrum", 201f, 600);
+            creator.createCheckbox("LageZentrum", 201f, 622);
+            creator.createCheckbox("LageZentrum", 201, 646);
+
+            creator.createCheckbox("LageZentrum", 292, 483);
+            creator.createCheckbox("LageZentrum", 292, 506);
+            creator.createCheckbox("LageZentrum", 292, 529);
+            creator.createCheckbox("LageZentrum", 292, 553);
+            creator.createCheckbox("LageZentrum", 292, 576);
+            creator.createCheckbox("LageZentrum", 292, 600);
+            creator.createCheckbox("LageZentrum", 292, 622);
+            creator.createCheckbox("LageZentrum", 292, 646);
+
+            creator.createCheckbox("LageZentrum", 384f, 483);
+            creator.createCheckbox("LageZentrum", 384f, 506);
+            creator.createCheckbox("LageZentrum", 384f, 529);
+            creator.createCheckbox("LageZentrum", 384f, 553);
+            creator.createCheckbox("LageZentrum", 384f, 576);
+            creator.createCheckbox("LageZentrum", 384f, 600);
+            creator.createCheckbox("LageZentrum", 384f, 622);
+            creator.createCheckbox("LageZentrum", 384f, 646);
+
+            creator.createCheckbox("LageZentrum", 471f, 483);
+            creator.createCheckbox("LageZentrum", 471f, 506);
+            creator.createCheckbox("LageZentrum", 471f, 529);
+            creator.createCheckbox("LageZentrum", 471f, 553);
+            creator.createCheckbox("LageZentrum", 471f, 576);
+            creator.createCheckbox("LageZentrum", 471f, 600);
+            creator.createCheckbox("LageZentrum", 471f, 622);
+            creator.createCheckbox("LageZentrum", 471f, 646);
+            //6.
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 693);
+            creator.createCheckbox("LageGrossstadtKlein", 19.5f, 704);
+            creator.createCheckbox("LageMittelstadtGross", 19.5f, 716);
+            creator.createCheckbox("LageGrossstadtKlein", 19.5f, 728);
+
+            creator.createCheckbox("LageMittelstadtGross", 111, 693);
+            creator.createCheckbox("LageGrossstadtKlein", 111, 704);
+            creator.createCheckbox("LageMittelstadtGross", 137, 693);
+            creator.createCheckbox("LageGrossstadtKlein", 137, 704);
+            creator.createCheckbox("LageGrossstadtKlein", 137, 716);
+
+            creator.createCheckbox("LageGrossstadtGross", 201.5f, 693);
+            creator.createCheckbox("LageGrossstadtKlein", 201.5f, 704);
+            creator.createCheckbox("LageMittelstadtGross", 201.5f, 716);
+
+            creator.createCheckbox("LageGrossstadtGross", 293, 693);
+            creator.createCheckbox("LageGrossstadtKlein", 293, 704);
+            creator.createCheckbox("LageMittelstadtGross", 293, 716);
+
+            creator.createCheckbox("LageGrossstadtGross", 386f, 693);
+            creator.createCheckbox("LageGrossstadtKlein", 386f, 704);
+
+            creator.createCheckbox("LageGrossstadtGross", 477f, 693);
+            creator.createCheckbox("LageGrossstadtKlein", 477f, 704);
+
+            creator.setPageToEdit(3);
+
+            //7.
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 81);
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 93);
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 105);
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 117);
+            creator.createCheckbox("LageGrossstadtGross", 19.5f, 129);
+
+            creator.createCheckbox("LageGrossstadtGross", 158, 81);
+            creator.createCheckbox("LageGrossstadtGross", 158, 93);
+            creator.createCheckbox("LageGrossstadtGross", 158, 105);
+            creator.createCheckbox("LageGrossstadtGross", 158, 117);
+            creator.createCheckbox("LageGrossstadtGross", 158, 129);
+
+            creator.createCheckbox("LageGrossstadtGross", 294, 81);
+            creator.createCheckbox("LageGrossstadtGross", 294, 93);
+            creator.createCheckbox("LageGrossstadtGross", 294, 105);
+            creator.createCheckbox("LageGrossstadtGross", 294, 117);
+            creator.createCheckbox("LageGrossstadtGross", 294, 129);
+
+            creator.createCheckbox("LageGrossstadtGross", 477, 81);
+            creator.createCheckbox("LageGrossstadtGross", 477, 93);
+            creator.createCheckbox("LageGrossstadtGross", 477, 105);
+            creator.createCheckbox("LageGrossstadtGross", 477, 117);
+            creator.createCheckbox("LageGrossstadtGross", 477, 129);
 
             // felder Operationen
 
             //creator.getFieldsFromPdf();
 
             //creator.deleteAllFieldsFromPdf();f
-            creator.saveAndOpenPdf(@"C:/users/robin/desktop/Schwäbisch Hall Protokolle/tedfsfdsdsfafdfdffdfftffsfd.pdf");
+            creator.saveAndOpenPdf(@"C:/users/robin/desktop/Schwäbisch Hall Protokolle/dffff.pdf");
             
 
         }
