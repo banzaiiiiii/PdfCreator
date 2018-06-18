@@ -144,11 +144,29 @@ namespace PdfCreator
             Console.ReadLine();
         }
 
+        // funktioniert nicht
+        //public void getAndChangeFieldName()
+        //{
+        //    PdfFormWidget formWidget = pdf.Form as PdfFormWidget;
+        //    for(int i = 0; i < formWidget.FieldsWidget.List.Count; i++)
+        //    {
+        //        PdfField field = formWidget.FieldsWidget.List[i] as PdfField;
+        //        string fieldName = field.Name;
+        //    }
+
+        //    List list = formWidget.FieldsWidget.GetFieldsByExportValue("Besichtigungsdatum");
+        //    for(int i = 0; i < list.Count; i++)
+        //    {
+        //        string fieldName = list[i].Name;
+        //        Console.WriteLine(fieldName);
+        //    }
+        //}
+
         
         public void createCheckbox(string fieldName, float koordinateXChange, float koordianteYChange)
         {
             PdfCheckBoxField checkbox = new PdfCheckBoxField(page, fieldName);
-            float checkboxWidth = 10;
+            float checkboxWidth = 6;
             float checkboxHeight = checkboxWidth;
             checkbox.Bounds = new RectangleF(koordinateXChange, koordianteYChange, checkboxWidth, checkboxHeight);
             checkbox.BorderWidth = 1;
