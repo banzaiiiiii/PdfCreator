@@ -340,6 +340,7 @@ namespace PdfCreator
             creator.createCheckbox("LageZentrum", 385.5f, 422);
             creator.createCheckbox("LageZentrum", 476.6f, 422);
 
+            creator.setPageToEdit(2);
 
 
             // felder Operationen
